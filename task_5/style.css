@@ -1,0 +1,78 @@
+body {
+	display: flex;
+	align-items: center;
+	text-align: start;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: "ALS Hauss", Arial, sans-serif;
+}
+
+main {
+	max-width: 630px;
+	padding: 15px;
+	margin: auto;
+	width: 100%;
+}
+
+.form-element {
+	position: relative;
+	text-align: start;
+	margin-top: 1rem;
+}
+
+.form-label {
+	display: inline-block;
+	font-size: 1.25rem;
+	font-weight: 400;
+	color: #3e4451;
+	margin-bottom: 0.25rem;
+}
+
+.form-control {
+	display: block;
+	flex-grow: 1;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	border: 2px solid #4676d7;
+	border-radius: 5px;
+	outline: none;
+	min-width: 90%;
+}
+
+.form-control:focus {
+	outline: none;
+	border: 2px solid #4676d7;
+	box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.result {
+	margin-top: 1rem;
+	color: #921A1D;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.btn {
+	min-width: 100px;
+	font-family: inherit;
+	appearance: none;
+	border: 0;
+	border-radius: 5px;
+	background: #4676d7;
+	color: #fff;
+	margin-top: 1rem;
+	padding: 8px 16px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #1d49aa;
+}
+
+.btn:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
+}
